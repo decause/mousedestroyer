@@ -49,7 +49,7 @@ class Shot(pyglet.sprite.Sprite):
 def on_text(text):
     if text == 'n':
         # Restart game
-        window.cash = 1000
+        window.cash = 1600
         window.lives = 25
         window.score = 0
         window.t = 0.0
